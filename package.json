@@ -4,7 +4,7 @@
   "description": "a wize editor for TDD",
   "main": "index.js",
   "scripts": {
-    "start":"node server.js",
+    "start": "node server.js",
     "dev": "set NODE_ENV=dev && ./node_modules/.bin/nodemon --watch server server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/vanduc1102/wize-mentor/issues"
   },
-  "homepage": "https://github.com/vanduc1102/wize-mentor#readme"
+  "homepage": "https://github.com/vanduc1102/wize-mentor#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
