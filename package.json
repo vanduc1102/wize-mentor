@@ -1,0 +1,19 @@
+{
+  "name": "wize-mentor-editor",
+  "version": "1.0.0",
+  "description": "a wize editor for TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanduc1102/wize-mentor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanduc1102/wize-mentor/issues"
+  },
+  "homepage": "https://github.com/vanduc1102/wize-mentor#readme"
+}
