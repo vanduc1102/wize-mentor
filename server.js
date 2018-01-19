@@ -24,6 +24,8 @@ app.use(methodOverride())
 app.use(express.static(path.resolve('./public')));
 app.use(session({
   secret: 's3Cur3',
+  resave: true,
+  saveUninitialized: false,
   name: 'sessionId'
 }));
 
